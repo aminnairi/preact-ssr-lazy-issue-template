@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config rollup.config.ts --configPlugin esbuild",
+    "start": "node build"
+  },
+  "devDependencies": {
+    "rollup": "3.9.0",
+    "rollup-plugin-esbuild": "5.0.0"
+  },
+  "dependencies": {
+    "preact": "10.11.3",
+    "preact-page": "1.4.0",
+    "preact-render-to-string": "5.2.6",
+    "preact-router": "4.1.0"
+  }
+}
